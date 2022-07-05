@@ -1,6 +1,7 @@
 #wrapper{
     display: flex;
     word-wrap:break-word;
+    font-family: 'Open Sans', sans-serif;
 }
 #information{
     background: rgb(95, 95, 100);
@@ -16,6 +17,10 @@ header{
 #sobremi{
     background: white;
     width: 75%;
+}
+.foto{
+    width: 40%;
+    height: 40%;
 }
 #contacto h2, #skills h2{
     color: white;
@@ -121,21 +126,35 @@ header{
         margin: 0;
         padding: 0;
     }
+    #wrapper{
+        display: block;
+    }
+    #information{
+        width: 100%;
+    }
+    #sobremi{
+        width: 100%;
+    }
+    
 }
-    .foto{
-    width: 40%;
-    height: 40%;
-}
-@media only screen and (max-width: 375px){
+
+@media only screen and (max-width: 450px){
     #information h2{
         font-size: 17px;
     }
     #redes-img img{
-        height: 25%;
-        width: 25%;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+  
+    #wrapper{
+        display: block;
+    }
+    #information{
+        background: rgb(95, 95, 100);
+        width: 100%;
+    }
+    #sobremi{
+        width: 100%;
     }
 }
-
-
-
-
