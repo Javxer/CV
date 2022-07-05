@@ -83,10 +83,20 @@ header{
     text-decoration: none;
     color: black;
 }
-#lista a:visited{
+#lista-link{
+    margin-left: 70px;
+}
+#lista-link a{
     text-decoration: none;
     color: black;
 }
+#lista-link li:hover{
+    text-decoration: underline;
+}
+#lista-link a:hover{
+    color: blue;
+}
+
 .education-titulo,.experiencia-datos{
     display: flex;
 }
