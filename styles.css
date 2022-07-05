@@ -1,0 +1,141 @@
+#wrapper{
+    display: flex;
+    word-wrap:break-word;
+}
+#information{
+    background: rgb(95, 95, 100);
+    width: 25%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#sobremi{
+    background: white;
+    width: 75%;
+}
+#contacto h2, #skills h2{
+    color: white;
+    background-color: rgb(4, 4, 5);
+}
+#contacto-contenido h3{
+    color: white;
+    text-decoration: solid;
+    font-size: medium;
+}
+#contacto-contenido p{
+    color: white;
+    font-size: small;
+}
+#skills-contenido, #idiomas{
+    color: white;
+}
+.item{
+    margin-bottom: 30px;
+}
+
+#redes h2 {
+    color: white;
+    background-color: rgb(4, 4, 5);
+}
+#redes-img{
+    text-align: center;
+}
+#redes-img img{
+    height: 2rem;
+    width: 2rem;
+}
+
+#experiencia p{
+    color: black;
+}
+#experiencia h2{
+    color: rgb(16, 16, 124);
+    border-bottom: rgb(189, 187, 187) ridge;
+    border-top: rgb(189, 187, 187) ridge;
+}
+#proyectos h2{
+    color: rgb(16, 16, 124);
+    border-bottom: rgb(189, 187, 187) ridge;
+    border-top: rgb(189, 187, 187) ridge;
+}
+#education h2{
+    color: rgb(16, 16, 124);
+    border-bottom: rgb(189, 187, 187) ridge;
+    border-top: rgb(189, 187, 187) ridge;
+}
+#education p{
+    color: black;
+}
+#education ul, #lista{
+    color: rgb(61, 61, 61);
+    margin-left: 70px;
+}
+#lista a{
+    text-decoration: none;
+    color: black;
+}
+#lista a:visited{
+    text-decoration: none;
+    color: black;
+}
+.education-titulo,.experiencia-datos{
+    display: flex;
+}
+
+.education-titulo p, .experiencia-datos p{
+    margin: 10px;
+}
+.barra{
+    width: 80%;
+    height: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 30px;
+}
+.barra-in{
+    width: 80%;
+    height: 10px;
+    background: white;
+    border-radius: 30px;
+}
+.barra-in-es{
+    width: 100%;
+    height: 10px;
+    background: white;
+    border-radius: 30px
+
+}
+@media only screen and (max-width: 600px) {
+    #information h1{
+        font-size: medium;
+    }
+    #contacto-contenido p{
+       word-wrap: break-word;
+    }
+    .lista-skills{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+    .foto{
+    width: 40%;
+    height: 40%;
+}
+@media only screen and (max-width: 375px){
+    #information h2{
+        font-size: 17px;
+    }
+    #redes-img img{
+        height: 25%;
+        width: 25%;
+    }
+}
+
+
+
+
